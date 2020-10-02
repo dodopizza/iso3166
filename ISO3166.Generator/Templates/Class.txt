@@ -1,0 +1,31 @@
+// ReSharper disable InconsistentNaming
+namespace Dodo.ISO3166
+{
+    using System;
+    using System.ComponentModel;
+    using System.Collections.Generic;
+
+    // Don't edit it manually!
+    // This class is automatically generated!
+    // Created at {%DATETIME%}
+    public static class Country
+    {
+        public enum Alpha2Code
+        {
+{%CODES2%}
+        }
+        
+        public enum Alpha3Code
+        {
+{%CODES3%}
+        }
+        
+        private static readonly IReadOnlyDictionary<int, string> Names = new Dictionary<int, string>(250)
+        {
+{%NAMES%}
+        };
+        
+        public static string GetNameByCode(int code) => 
+            Names[code];
+    }
+}
