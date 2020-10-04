@@ -14,17 +14,14 @@ jobs:
 
       - name: Generate nuget
         run: |
-          cd ./ISO3166.Generator/
-          dotnet run -c Release
+          dotnet run -c Release -p ./ISO3166.Generator
 
       - name: Run tests
         run: |
-          cd ..
           dotnet test ./ISO3166.Generator/Output/CSharp/ISO3166.UnitTests
 
       - name: Push to nuget
         run: |
-          cd ..
           dotnet pack -c Release ./ISO3166.Generator/Output/CSharp/ISO3166 --output ./artifact
           cd ./artifact
           dotnet nuget push "*.nupkg" -s https://api.nuget.org/v3/index.json -k ${{ secrets.NUGET_API_KEY }} --skip-duplicate
