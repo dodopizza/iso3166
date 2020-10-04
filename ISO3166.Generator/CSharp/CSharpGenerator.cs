@@ -85,7 +85,7 @@ namespace ISO3166.Generator.CSharp
         {
             const string version = "0.0.1-alpha1";
 
-            const string templatesDir = "./CSharp/Templates";
+            const string templatesDir = "./ISO3166.Generator/CSharp/Templates";
             const string outputDir = "./Output/CSharp";
 
             const string nugetDir = outputDir + "/ISO3166";
