@@ -83,7 +83,7 @@ namespace ISO3166.Generator.CSharp
 
         public async Task Generate(Country[] countries)
         {
-            const string version = "0.0.1-alpha1";
+            const string version = "0.0.1-alpha2";
 
             const string templatesDir = "./ISO3166.Generator/CSharp/Templates";
             const string outputDir = "./Output/CSharp";
