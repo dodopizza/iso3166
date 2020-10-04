@@ -6,17 +6,17 @@
         <LangVersion>8.0</LangVersion>
     </PropertyGroup>
     <ItemGroup>
-        <None Include="..\..\dodopizza-logo.png">
+        <None Include="..\dodopizza-logo.png">
             <PackagePath>\</PackagePath>
             <Pack>true</Pack>
             <Link>dodopizza-logo.png</Link>
         </None>
-        <None Include="..\..\LICENSE">
+        <None Include="..\LICENSE">
             <PackagePath>\</PackagePath>
             <Pack>true</Pack>
             <Link>LICENSE</Link>
         </None>
-        <None Include="..\..\README.md">
+        <None Include="..\README.md">
             <PackagePath>\</PackagePath>
             <Pack>true</Pack>
             <Link>README.md</Link>
