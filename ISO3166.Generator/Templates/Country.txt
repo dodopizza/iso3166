@@ -1,1 +1,0 @@
-            new Country("{%NAME%}", "{%TWOLETTERSCODE%}", "{%THREELETTERSCODE%}", "{%NUMERICCODE%}"),

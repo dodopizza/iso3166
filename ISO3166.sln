@@ -2,10 +2,6 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ISO3166.Generator", "ISO3166.Generator\ISO3166.Generator.csproj", "{A8DC7C88-738B-4707-B339-24C8F35F6F18}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ISO3166", "ISO3166\ISO3166.csproj", "{34333462-28CF-4F9E-90D4-4C66CE5B9D87}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ISO3166.UnitTests", "ISO3166.UnitTests\ISO3166.UnitTests.csproj", "{7DBD0BD7-5D3E-4AB2-8027-907680AAE4AB}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -16,13 +12,5 @@ Global
 		{A8DC7C88-738B-4707-B339-24C8F35F6F18}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A8DC7C88-738B-4707-B339-24C8F35F6F18}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A8DC7C88-738B-4707-B339-24C8F35F6F18}.Release|Any CPU.Build.0 = Release|Any CPU
-		{34333462-28CF-4F9E-90D4-4C66CE5B9D87}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{34333462-28CF-4F9E-90D4-4C66CE5B9D87}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{34333462-28CF-4F9E-90D4-4C66CE5B9D87}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{34333462-28CF-4F9E-90D4-4C66CE5B9D87}.Release|Any CPU.Build.0 = Release|Any CPU
-		{7DBD0BD7-5D3E-4AB2-8027-907680AAE4AB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{7DBD0BD7-5D3E-4AB2-8027-907680AAE4AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{7DBD0BD7-5D3E-4AB2-8027-907680AAE4AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{7DBD0BD7-5D3E-4AB2-8027-907680AAE4AB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
