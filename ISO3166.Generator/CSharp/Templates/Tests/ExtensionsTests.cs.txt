@@ -88,7 +88,7 @@ namespace ISO3166.UnitTests
             Assert.Throws<InvalidOperationException>(() => @int.ToAlpha3Code());
         }
 
-        [TestCase(Country.Alpha2Code.RU, "Russia")]
+        [TestCase(Country.Alpha2Code.RU, "Russian Federation (the)")]
         [TestCase(Country.Alpha2Code.DE, "Germany")]
         public void GivenAlpha2Code_WhenCalledGetName_ThenCorrectNameReturned(
             Country.Alpha2Code @enum,
@@ -97,7 +97,7 @@ namespace ISO3166.UnitTests
             Assert.AreEqual(name, @enum.GetName());
         }
 
-        [TestCase(Country.Alpha3Code.RUS, "Russia")]
+        [TestCase(Country.Alpha3Code.RUS, "Russian Federation (the)")]
         [TestCase(Country.Alpha3Code.DEU, "Germany")]
         public void GivenAlpha3Code_WhenCalledGetName_ThenCorrectNameReturned(
             Country.Alpha3Code @enum,

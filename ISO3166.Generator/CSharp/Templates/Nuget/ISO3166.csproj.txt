@@ -1,7 +1,7 @@
 <Project Sdk="Microsoft.NET.Sdk">
     <PropertyGroup>
         <TargetFramework>netstandard2.1</TargetFramework>
-        <Version>0.0.1-alpha2</Version>
+        <Version></Version>
         <RootNamespace>Dodo.ISO3166</RootNamespace>
         <LangVersion>8.0</LangVersion>
     </PropertyGroup>
