@@ -19,7 +19,8 @@ jobs:
 
       - name: Run tests
         run: |
-          dotnet test ./Output/CSharp/ISO3166.UnitTests
+          cd ..
+          dotnet test ./ISO3166.Generator/Output/CSharp/ISO3166.UnitTests
 
       - name: Push to nuget
         run: |
