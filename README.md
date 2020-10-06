@@ -43,6 +43,5 @@ var countryCode = countryCodeAlpha3.ToString(); // -> "RUS"
 ## New version
 
 1. Edit ISO3166.Generator code
-2. Update version in ISO3166.csproj
-3. Commit and push
-4. PROFIT
+2. Commit and push
+3. PROFIT
